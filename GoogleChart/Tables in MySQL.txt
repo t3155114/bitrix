@@ -1,0 +1,26 @@
+
+
+Создаем таблицы и настриваем интеграцию с 1С для вставки (обновления) значений в этой таблице.
+Данные из нее используются в графах
+
+
+create table z_report(
+id int(18) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+
+name varchar(100),
+value  float,
+money float,
+date_ins datetime
+)
+
+
+create table z_money(
+id int(18) NOT NULL AUTO_INCREMENT PRIMARY KEY, 
+name varchar(100),
+moneyTd  double,
+moneyWk double,
+moneyMo double,
+date_ins datetime
+)
+
+

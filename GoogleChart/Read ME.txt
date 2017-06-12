@@ -1,0 +1,6 @@
+This shows how to work with database (MySQL), Google Chart. 
+Using JSON
+
+in index.php - for mobile - user can slide 
+
+in tv.php - for display information on tv - diagrams changes automatically in 10 sec
