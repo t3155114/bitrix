@@ -1,0 +1,19 @@
+There was task to set up filter by status - ACCEPTED, FIRED, MOVED, ALL
+So i made changes in component
+line 67 and 123
+
+ create new template and changed a page- events.php
+
+To avoid the further problems when component will update It is neccesity to locate this component (and full directory intranet.structure.events in separate folder (not  default)
+
+
+===============
+Необходимл было на  странице Кадровые измнения фильтровать данные по Принят, Уволен, Переведен, Все
+Я изменила компонент- дабвила строки 67 и 123 - там есть комментарии
+и создала новый шаблон. и изменила страницу  events.php
+
+Чтобы избежать проблем при послующем обновлении компонента - необходимо папку 
+intranet.structure.events расположить в отдельной папке (НЕ по умолчанию, например, bitrix).
+и при подключении компонента на странице events.php указываем эту папку line 19 - OUR_DIR
+
+<?$APPLICATION->IncludeComponent("OUR_DIR:intranet.structure.events", ".default", Array(
