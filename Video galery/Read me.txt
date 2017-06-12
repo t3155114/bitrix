@@ -1,0 +1,16 @@
+there was a need to display video like at Youtube with a preview
+I add code when user add movie - the file for element's editing thet allows to modify the fields before saving
+/bitrix/php_interface/include/iblock_element_edit_before_save2.php
+
+For this Module ffmpeg must be installed at server
+
+
+Необходимо  было отображить видео с превью (подобно как в youtube)
+Я создала файл и добавила его в инфоблоке в поле:
+Файл для редактирования элемента, позволяющий модифицировать поля перед сохранением:
+
+Необходимо установить ffmpeg на сервер
+
+Сами ролики сделала как новости-превью сохраняется в Картинку для анонса
+
+Если нужно - могу выставить шаблон компонента новостей, а также как сделан Инфоблок
